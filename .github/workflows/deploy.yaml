@@ -21,4 +21,4 @@ jobs:
             git pull git@github.com:Alexguillemin91/imx-buy-bot.git
             pm2 delete all
             pm2 start "yarn -s buy-eth >> /home/alexguiguilebg/buy-eth.log"
-            echo "Deploy OK!"
+            echo "Deploy OK"
