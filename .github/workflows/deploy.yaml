@@ -19,5 +19,5 @@ jobs:
             node -v
             whereis pm2
             pm2 delete all
-            pm2 start "yarn -s buy-eth >> /home/alexguiguilebg/logs/buy-eth.log"
+            pm2 start "npm run --silent buy-eth >> /home/alexguiguilebg/logs/buy-eth.log"
             echo "Deploy OK"
